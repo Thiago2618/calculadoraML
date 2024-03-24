@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora ML</title>
+</head>
+<body>
+    <div class="formulario">
+        <form class="form" id="myForm">
+            <p>
+                <label for="valorBruto">Valor Bruto:</label>
+                <input id="valorBruto" type="number">
+            </p>
+            <p>
+                <label for="taxa">Taxa da Categoria:</label>
+                <input id="taxa" type="number">
+            </p>
+            <p>
+                <button type="button" onclick="calcular()">Enviar</button>
+            </p>
+        </form>
+        <p id="valorBrutoTexto"></p>
+        <p id="taxaTexto"></p>
+        <p id="valorTaxaTexto"></p>
+        <p id="final"></p>
+    </div>
+    <footer>Desenvolvido por Thiago</footer>
+    <script src="app.js"></script>
+</body>
+</html>
